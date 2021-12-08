@@ -1,31 +1,19 @@
-# Component Based UI
+# RESTy application
 
-## Lab Requirements
+## an API testing application, flexible to run on any browser, allows the user to easily interact  with APIs in a familiar interface
 
-Students will be creating and styling a Counter application. Look for the following attributes
+***
+### [SandBox](https://codesandbox.io/s/resty-nm6h4) 
 
-- `Header`, `Footer`, and `Counter` components to separate files
-- Properly `export` them as defaults
-- Import them into the `App` Component using ES6 `import` statement
-- Proper state management
-- Button Handlers
-  - Bonus if they can wire both buttons with one handler
+### [Pulls](https://github.com/amr88nzzal/resty/pull/2)
 
-### Grading Standards & Notes
+***
+## Setup:
+  * To start the app: `npm start`
+  * To use Sacc for styling: `npm i node-sass`
 
-- Features
-  - As noted
-- Code Quality
-  - Looking for proper class syntax.
-  - Good file naming and folder structure.
-  - Styles well written, using SASS variables/nesting and thought through beyond simple colors.
-- Testing
-  - Not Required
-- Deployment
-  - Code Sandbox only.
-- Documentation
-  - Quality README
+***
 
-### Lab Assistance Notes
+## UML Diagram
 
-- The first and most important part of the lab assignment is to draw a process diagram of the starter code and state as events happen. Once the students understand that, they can move on.
+![uml](./public/assets/lab26-uml.jpg)

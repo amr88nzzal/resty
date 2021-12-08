@@ -1,0 +1,97 @@
+$mainFont: Verdana, Geneva, Tahoma, sans-serif;
+
+form {
+  display: inline-block;
+  margin: auto;
+  border-radius: 10px;
+  padding: 10px;
+  box-shadow: 5px 5px 10px #494949;
+  background-color: #f7ad1c;
+  font-family: $mainFont;
+  width: 300px;
+  display: inline-block;
+
+  label {
+    display: flex;
+    margin: 1rem auto;
+    &.url-label {
+      display: flex;
+      flex-direction: row;
+      justify-content: center;
+      gap: 10px;
+      align-items: center;
+      input {
+        width: 230px;
+        height: 2.5rem;
+        background-color: rgba(0, 0, 0, 0.493);
+        color: rgb(255, 0, 0);
+        border-radius: 7px;
+        border: none;
+        &::placeholder {
+          color: rgb(214, 210, 210);
+        }
+      }
+
+      button {
+        background-color: #925f00;
+        height: 2rem;
+        border-radius: 7px;
+        border: none;
+        color: white;
+        cursor: pointer;
+      }
+    }
+    #go {
+      border-radius: 22%;
+      height:25px;
+      background-color: #007406;
+      margin-left: 15px;
+      &:hover,
+      &.active {
+        background-color: #18f823;
+
+      }
+    }
+
+
+    &.methods {
+      span {
+        cursor: pointer;
+        padding: 0.75rem 0.75rem;
+        background: #151516;
+        border-radius: 5px;
+        width: 70px;
+        margin: 0 5px;
+        color: rgb(228, 227, 227);
+      }
+
+      #get {
+        &:hover,
+        &.active {
+          background-color: #2496aa;
+        }
+      }
+      
+      #post {
+        &:hover,
+        &.active {
+          background-color: #8f2886;
+        }
+      }
+
+      #put {
+        &:hover,
+        &.active {
+          background-color: #2ca043;
+        }
+      }
+
+      #delete {
+        &:hover,
+        &.active {
+          background-color: #b42525;
+        }
+      }
+    }
+  }
+}
